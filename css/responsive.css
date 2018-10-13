@@ -27,10 +27,7 @@
         /* height: 100%; */
         margin-right: 35px;
     }
-
-    .app-list img {
-    }
-
+    
     .app-list:last-of-type {
         margin-right: 0;
     }
