@@ -1,0 +1,64 @@
+@media screen and (max-width: 360px) {
+    header {
+        position: fixed;
+        top: 0;
+        background-color: white;
+        height: calc(100% - 81%);
+        z-index: 1000;
+    }
+
+    main {
+        margin-top: 35%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+    display: inline-block;
+    }
+
+    .web-app ul {
+        display: flex;
+    }
+
+    .app-list {
+        width: calc((100% - 70px)/3);
+        display: inline-block;
+        /* height: 100%; */
+        margin-right: 35px;
+    }
+
+    .app-list img {
+    }
+
+    .app-list:last-of-type {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    header {
+        max-height: 167.2px;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .info h1 {
+        font-size: 32px;
+    }
+    
+    .info h2 {
+        font-size: 24px;
+    }
+}
