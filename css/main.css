@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+p {
+    position: relative;
+    text-align: center;
+    font-family: georgia;
+    padding: 0 1em 1em 1em;
+    width: 100%;
+    font-style: oblique;
+}
+
 
 /*
  *
